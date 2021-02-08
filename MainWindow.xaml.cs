@@ -21,8 +21,8 @@ namespace FirstGame
         private SolidColorBrush foodBrush = Brushes.Yellow; //Цвет еды (кукурузы)
 
         const int SnakeSquareSize = 20; //Размер блока змеи
-        const int SnakeStartLength = 3; //Начальное значение блоков змеи
-        const int SnakeStartSpeed = 400; //Начальная скорость змеи
+        const int SnakeStartLength = 20; //Начальное значение блоков змеи
+        const int SnakeStartSpeed = 300; //Начальная скорость змеи
         const int SnakeSpeedThreshold = 100; //Порог скорости
 
         private Random rnd = new Random(); //Объявление рандома
